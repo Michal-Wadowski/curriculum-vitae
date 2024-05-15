@@ -1,0 +1,151 @@
+@media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+
+}
+
+@media screen {
+  body {
+    margin: 1cm auto;
+  }
+
+  .page {
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    margin-bottom: 1cm;
+  }
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(43, 152, 222);
+  font-weight: bold;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  margin-bottom: 13px;
+  margin-top: 20px;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  background: white;
+  padding: 10px;
+  text-align: justify;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+body {
+  width: 210mm;
+  font-family: 'Century Gothic Paneuropean', sans-serif;
+  font-size: 13px;
+}
+
+.page {
+  height: 297mm;
+  background: white;
+  width: 100%;
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.row.content {
+  height: 100%;
+}
+
+.header {
+  background: rgb(43, 152, 222);
+  color: white;
+  padding: 15px;
+}
+
+.header h1 {
+  line-height: 45px;
+  font-size: 41px;
+  padding-top: 23px;
+}
+
+.header h2 {
+  font-weight: normal;
+  padding-top: 7px;
+  font-size: 20px;
+}
+
+/* .main,
+.sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+} */
+
+.main {
+  /* left: 0;
+  right: 300px; */
+  padding: 15px;
+  width: 490px;
+
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main p {
+  padding-top: 23px;
+  text-align: justify;
+}
+
+.sidebar {
+  background: rgb(244, 244, 244);
+  right: 0;
+  width: 300px;
+  padding: 15px;
+
+  display: inline-block;
+  height: 100%;
+
+  /* border: 10px solid red; */
+}
+
+.sidebar div {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.sidebar h4 {
+  margin-top: 10px;
+}
+
+.middle {
+  height: 100%;
+  /* display: table-cell; */
+  /* position: relative; */
+}
+
+.main>section {
+  margin-bottom: 15px;
+}
+
+.main>section>h4>span {
+  display: block;
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+
+.main>section>h4 {
+  display: inline-block;
+  width: 140px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.main>section>div {
+  display: inline-block;
+  width: calc(100% + -160px);
+}
+
+.main>section>div>div:first-child {
+  font-weight: bold;
+}

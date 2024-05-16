@@ -40,6 +40,7 @@ body {
   width: 210mm;
   font-family: 'Century Gothic Paneuropean', sans-serif;
   font-size: 13px;
+  color: rgb(25, 25, 25);
 }
 
 .page {
@@ -105,6 +106,7 @@ body {
 
 .sidebar h4 {
   margin-top: 10px;
+  color: rgb(75, 75, 75);
 }
 
 .middle {
@@ -130,6 +132,7 @@ body {
   width: 140px;
   vertical-align: top;
   margin-right: 10px;
+  color: rgb(75, 75, 75);
 }
 
 .main>section>div {
@@ -139,4 +142,10 @@ body {
 
 .main>section>div>div:first-child {
   font-weight: bold;
+  color: rgb(75, 75, 75);
+}
+
+a {
+  white-space: nowrap;
+  color: black;
 }

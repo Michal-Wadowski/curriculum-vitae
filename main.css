@@ -75,16 +75,7 @@ body {
   font-size: 20px;
 }
 
-/* .main,
-.sidebar {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-} */
-
 .main {
-  /* left: 0;
-  right: 300px; */
   padding: 15px;
   width: 490px;
 
@@ -105,8 +96,6 @@ body {
 
   display: inline-block;
   height: 100%;
-
-  /* border: 10px solid red; */
 }
 
 .sidebar div {
@@ -120,12 +109,14 @@ body {
 
 .middle {
   height: 100%;
-  /* display: table-cell; */
-  /* position: relative; */
 }
 
 .main>section {
   margin-bottom: 15px;
+}
+
+.main>section:first-child {
+  margin-top: 25px;
 }
 
 .main>section>h4>span {

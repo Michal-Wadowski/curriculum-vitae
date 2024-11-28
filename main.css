@@ -23,7 +23,7 @@ h3 {
   font-weight: bold;
   border-bottom: 1px solid rgb(213, 213, 213);
   margin-bottom: 13px;
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 .footer {
@@ -78,21 +78,21 @@ body {
 
 .main {
   padding: 15px;
-  width: 490px;
+  width: 503px;
 
   display: inline-block;
   vertical-align: top;
 }
 
 .main p {
-  padding-top: 23px;
+  padding-top: 0;
   text-align: justify;
 }
 
 .sidebar {
   background: rgb(244, 244, 244);
   right: 0;
-  width: 300px;
+  width: 287px;
   padding: 15px;
 
   display: inline-block;
@@ -143,6 +143,17 @@ body {
 .main>section>div>div:first-child {
   font-weight: bold;
   color: rgb(75, 75, 75);
+  font-size: 1.1em;
+  margin-top: -5px;
+  margin-bottom: 3px;
+}
+
+.main>section>div>div:not(:last-child, :first-child) {
+  margin-bottom: 5px;
+}
+
+.main>section>div>div>b {
+  color: rgb(90, 90, 90);
 }
 
 a {

@@ -41,6 +41,7 @@ body {
   font-family: 'Century Gothic Paneuropean', sans-serif;
   font-size: 13px;
   color: rgb(25, 25, 25);
+  line-height: 1.45;
 }
 
 .page {
